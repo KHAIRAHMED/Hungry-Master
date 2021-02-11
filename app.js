@@ -26,9 +26,11 @@ document.getElementById('searchButton').addEventListener('click',function(){
 const inputGet = async inputValue=>{
     if (inputValue === ''){
         errorFuncton('Dont Enter Empty')
+        
     }
     else{
         try{
+            document.getElementById('error').innerText =''
             const rel = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${inputValue}`)
             const data = await rel.json()
             meals(data.meals);
