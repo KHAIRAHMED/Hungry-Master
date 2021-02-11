@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hungry Master</title>
+  <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+  <!-- css link  -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- css bootstrap link  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+</head>
+
+<body>
+
+  <!-- navbar  -->
+  <div id="navbar">
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <h5><a class="navbar-brand" href="#">Hungry Master</a></h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <h5><a class="nav-link active" aria-current="page" href="#">Home</a></h5>
+            </li>
+            <li class="nav-item">
+              <h5><a class="nav-link active" href="#">About</a></h5>
+            </li>
+            <li class="nav-item">
+              <h5><a class="nav-link active" href="#">Recipes</a></h5>
+            </li>
+            <li class="nav-item">
+              <h5><a class="nav-link active" href="#">Blogs</a></h5>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+
+
+  <!-- search button  -->
+
+ <div class="searchButton mt-2" >
+  <input type="text" name="" id="input" placeholder="Search for Meal" aria-label="Search"  class="p-1">
+  <button id="searchButton" type="button" class="btn btn-danger">Search</button>
+</div>
+
+<h1 id="error"></h1>
+
+<!-- ingredients details  -->
+<ul id="ingredients"></ul>
+
+<!-- meal and picture part  -->
+
+<div id="mealAndPicture"></div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- link of js file  -->
+  <script src="app.js"></script>
+  <!-- js bootstrap link  -->
+  <script src="css/bootstrap.bundle.min.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+</body>
+
+</html>

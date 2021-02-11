@@ -1,0 +1,29 @@
+#navbarSearch{
+    margin:auto;
+}
+#input{
+
+}
+#searchBtn{
+
+}
+.searchButton{
+    text-align: center;
+}
+#mealAndPicture {
+margin-top: 10px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-gap: 10px;
+
+}
+#mealAndPicture img {
+    width: 300px;
+}
+.createDiv{
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+#ingredients img{
+    width: 300px;
+}
