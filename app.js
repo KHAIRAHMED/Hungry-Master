@@ -25,6 +25,7 @@ document.getElementById('searchButton').addEventListener('click',function(){
 
 const inputGet = async inputValue=>{
     if (inputValue === ''){
+        document.getElementById('mealAndPicture').innerText =''
         errorFuncton('Dont Enter Empty')
         
     }
